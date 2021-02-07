@@ -133,8 +133,8 @@
 
         <div class="advertisement">
           <div class="title">
-            <span >试试扫一下</span>
-            <img src="http://47.103.216.205:2020/admin/image/1606179997260_780721024181207040.png" style="width: 225px ;height: 225px">
+
+            <CountDown></CountDown>
           </div>
 
         </div>
