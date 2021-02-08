@@ -130,17 +130,12 @@
         </el-input>
       </div>
         <PopularCard></PopularCard>
-
-        <div class="advertisement">
-          <div class="title">
-
-            <CountDown></CountDown>
-          </div>
-
-        </div>
+        <br>
+        <CountDown></CountDown>
+        <br>
         <AdvertisementLoop></AdvertisementLoop>
-
       </div>
+
     </div>
 
 </template>
@@ -366,7 +361,7 @@
   }
 </script>
 <!--1140px分为 240 660 240-->
-<style>
+<style >
 
   #index-left-part{
     position: fixed;
@@ -469,6 +464,12 @@
   .article .title{
     font-size: 18px;
     font-weight: 600;
+
+    display:inline-block;
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .loop-box{
     padding: 10px;

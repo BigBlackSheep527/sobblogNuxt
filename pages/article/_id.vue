@@ -35,20 +35,11 @@
      </div>
 
      <div class="article-box-right float-left">
-
-<!--我改变了改变了-->
-       <div class="popularCard same-type">
-         <PopularCard></PopularCard>
-        </div>
-       <div class="advertisement same-type">
-         <div class="title same-type">
-           <span style="color: #8A8A8A;margin-left: 5px">试试扫一下</span>
-           <img src="http://47.103.216.205:2020/admin/image/1606179997260_780721024181207040.png" style="width: 225px ;height: 225px">
-         </div>
-       </div>
-       <div id="taobao-loop-testscroll" class="taobao-loop">
-         <AdvertisementLoop></AdvertisementLoop>
-       </div>
+       <PopularCard></PopularCard>
+       <br>
+       <CountDown></CountDown>
+       <br>
+       <AdvertisementLoop></AdvertisementLoop>
      </div>
    </div>
 

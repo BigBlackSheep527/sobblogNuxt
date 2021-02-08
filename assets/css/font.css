@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'modeng';
+  font-weight: normal;
+  src: url('~assets/font/HYShangWeiShouShuW.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: 'modeng' !important;
+  font-size: 16px;
+  font-style: normal;
+}

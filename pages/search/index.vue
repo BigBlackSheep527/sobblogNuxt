@@ -79,6 +79,8 @@
       <div class="search-right float-left">
         <PopularCard></PopularCard>
         <br>
+       <CountDown></CountDown>
+        <br>
         <AdvertisementLoop></AdvertisementLoop>
       </div>
     </div>
