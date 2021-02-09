@@ -5,11 +5,11 @@
         <span>广告</span>
         <span class="line"></span>
       </h3>
-      <div v-if="isShow" style="position: relative; top:-35px; padding: 5px">
-      <el-carousel :interval="3000" arrow="always" id="adv">
+      <div v-if="isShow" style="position: relative; top:-35px; padding: 5px" class="advertisement">
+       <el-carousel :interval="3000" arrow="always" id="adv">
         <el-carousel-item v-for="(item,index) in loop" :key="index">
           <svg style="width: 20px;height: 20px; position: relative; top:25px; left: 200px" @click="isShow=false" t="1612750316486" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3886" width="200" height="200"><path d="M29.824 512c0-266.688 216-482.688 482.176-482.688a482.304 482.304 0 0 1 482.176 482.176V512A481.664 481.664 0 0 1 512 994.176 481.984 481.984 0 0 1 29.824 512z m514.432 0L712.64 343.616a21.888 21.888 0 0 0 0-31.232l-1.024-1.024a21.888 21.888 0 0 0-31.232 0L512 480.32 343.616 311.36a21.888 21.888 0 0 0-31.232 0l-1.024 1.024a21.888 21.888 0 0 0 0 31.232l168.384 168.896L311.36 680.896a21.888 21.888 0 0 0 0 31.232l1.024 1.024a21.888 21.888 0 0 0 31.232 0L512 544.768l168.384 168.384a21.888 21.888 0 0 0 31.232 0l1.024-1.024a21.888 21.888 0 0 0 0-31.232L544.256 512z" fill="#cdcdcd" p-id="3887"></path></svg>
-          <a :href="item.coupon_click_url" > <img :src="item.pict_url+'_320x320xzq90.jpg_.webp'"> </a>
+          <a :href="item.coupon_click_url" > <img :src="item.pict_url+'_320x320xzq90.jpg_.webp'" style="width:230px;height: 210px;border-radius: 5%;"> </a>
         </el-carousel-item>
       </el-carousel>
       </div>
@@ -51,11 +51,7 @@
 
 
 <style >
-   img{
-    width:230px;
-    height: 210px;
-   border-radius: 5%;
-  }
+
   .el-carousel__indicator--horizontal {
     display: none;
     padding: 12px 4px;

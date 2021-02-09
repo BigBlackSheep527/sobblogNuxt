@@ -107,7 +107,7 @@ export default {
       pageNavigation:{
         currentPage:1,
         totalCount:2,
-        pageSize:2
+        pageSize:9
       }
     }
   },
@@ -188,7 +188,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .search-head{
     margin-top: 10px;
     background: #FFFFFF;

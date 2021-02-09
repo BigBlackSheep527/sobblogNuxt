@@ -129,7 +129,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
   #about-box-left{
     position: fixed;
 

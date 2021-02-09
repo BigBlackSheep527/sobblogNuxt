@@ -6,9 +6,9 @@
            <div class="article-title">
              <span>{{articleDetail.title}}</span>
            </div>
-           <div class="article-cover">
-             <img :src="'/portal/image/'+articleDetail.cover">
-           </div>
+<!--           <div class="article-cover">-->
+<!--             <img :src="'/portal/image/'+articleDetail.cover">-->
+<!--           </div>-->
            <div class="article-publish-time" style="margin-top: 20px" >
                <img :src="articleDetail.userAvatar">
                <span style="font-size: 20px;color: #666;font-weight: 600; margin-left: 5px" >{{userInfo.userName}}</span>
@@ -89,13 +89,15 @@ export default {
 }
 </script>
 
-<style>
+<style >
   .article-content-container{
     padding:20px;
-
+    font-size: 25px;
   }
   .article-content-container img{
     max-width:850px ;
+    min-width: 500px;
+    min-height: 350px;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;

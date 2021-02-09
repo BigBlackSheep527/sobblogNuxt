@@ -185,7 +185,7 @@
   }
 </script>
 
-<style >
+<style scoped>
   .admin-login-center-box{
     color: #ffffff;
     font-size: 10px;

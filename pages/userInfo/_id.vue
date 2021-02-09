@@ -249,7 +249,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
   .el-dialog__body{
     padding: 26px 0  0 40px;
   }
